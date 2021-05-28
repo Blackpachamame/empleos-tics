@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: "Kufam";
+    font-weight: 600;
+}
+
+.colorCab {
+    background: linear-gradient(
+        270deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(0, 46, 94, 1) 60%,
+        rgba(0, 123, 255, 1) 100%
+    );
+}
+
+.colorFooter {
+    color: #fff;
+    background-color: #1b1b1b;
+}
+
+/* Le quito el borde y el padding al toggle */
+.navbar-dark .navbar-toggler {
+    padding: 0.25rem 0.35rem;
+    border: 0;
+    color: #fff;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.bg-blue {
+    background-color: #004b9c;
+}
+
+.border-blue {
+    border-color: #004b9c;
+}
+
+.btn-blue {
+    color: #fff;
+    background-color: #004b9c;
+    border-color: #004b9c;
+}
+
+.btn-blue:hover {
+    color: #fff;
+    background-color: #003064;
+    border-color: #003064;
+}
+
+.card-footer {
+    border-top: 0;
+}
+
+ul.rubros li:first-child {
+    color: #fff;
+    background-color: #004b9c;
+}
+
+thead {
+    color: #fff;
+    background-color: #004b9c;
+    border: solid #004b9c 1px;
+}

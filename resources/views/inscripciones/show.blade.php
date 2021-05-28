@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 
-<h1>Busquedas encontradas</h1>
+<h2>Busquedas encontradas</h2>
 @foreach($col as $busqueda)
 <ul>
     <li>Id Busqueda: {{ $busqueda->idBusqueda }}</li>

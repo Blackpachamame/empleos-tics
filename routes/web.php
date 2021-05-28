@@ -17,9 +17,9 @@ use App\Http\Controllers\InscripcionesController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 
 Route::get('rubros', [RubrosController::class, 'index'])->name('rubros.index');

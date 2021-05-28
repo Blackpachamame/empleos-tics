@@ -1,7 +1,7 @@
 @extends('layouts.app')
-@section('titlePage','Busquedas')
 @section('content')
-<h1 class="text-primary">Lista de Busquedas</h1>
+
+<h2 class="text-primary pb-2">Lista de Busquedas</h2>
 
 <table class="table table-bordered" id="tableRubros">
     <thead>
